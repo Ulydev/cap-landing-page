@@ -3,3 +3,16 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body {
+    margin: 0;
+    background: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.font-monospace {
+    font-family: "Roboto Mono", monospace;
+}
