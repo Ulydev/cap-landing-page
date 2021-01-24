@@ -16,3 +16,14 @@ html, body {
 .font-monospace {
     font-family: "Roboto Mono", monospace;
 }
+
+.pattern-dots {
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-size: calc(20 * 1px) calc(20 * 1px);
+}
+
+@media (min-width: 1536px) {
+    html {
+        zoom: 140%;
+    }
+}
