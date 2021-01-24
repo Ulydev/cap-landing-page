@@ -5,7 +5,7 @@ import { GiUnicorn } from "react-icons/gi"
 import logo from "../assets/images/logo.svg"
 
 const Header = () => (
-  <div className="flex flex-row space-x-20 font-monospace">
+  <div className="flex flex-row justify-between font-monospace">
     <div className="w-12">
       <img src={logo} />
     </div>
