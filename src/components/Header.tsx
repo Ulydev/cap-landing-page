@@ -1,5 +1,7 @@
 import React from "react"
 
+import { GiUnicorn } from "react-icons/gi"
+
 import logo from "../assets/images/logo.svg"
 
 const Header = () => (
@@ -7,7 +9,7 @@ const Header = () => (
     <div className="w-12">
       <img src={logo} />
     </div>
-    <div className="flex flex-row space-x-8 text-xs tracking-widest">
+    <div className="flex flex-row items-center space-x-8 text-xs tracking-widest">
       <a className="opacity-50">DOCS</a>
       <a
         href="https://app.cap.uly.dev"
@@ -22,6 +24,14 @@ const Header = () => (
         className="hover:text-primary-100 transition duration-300"
       >
         FORUM
+      </a>
+      <a
+        href="https://app.uniswap.org/#/swap?outputCurrency=0x43044f861ec040db59a7e324c40507addb673142"
+        target="_blank"
+        className="hover:text-primary-100 transition duration-300 flex flex-row items-center"
+      >
+        $CAP&nbsp;
+        <GiUnicorn className="text-base" />
       </a>
     </div>
   </div>
