@@ -5,7 +5,7 @@ import { FaTelegramPlane } from "react-icons/fa"
 import { CSSTransition, SwitchTransition } from "react-transition-group"
 
 const AssetShowcase = () => {
-  const assets = ["AAPL", "NFLX", "GOOG"]
+  const assets = ["AAPL", "BTC", "NFLX", "GOOG", "ETH", "SP500"]
   const [assetIndex, setAssetIndex] = useState(0)
   const asset = assets[assetIndex]
   useEffect(() => {
