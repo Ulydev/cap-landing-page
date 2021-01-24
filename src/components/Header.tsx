@@ -8,8 +8,21 @@ const Header = () => (
       <img src={logo} />
     </div>
     <div className="flex flex-row space-x-8 text-xs tracking-widest">
-      <a>GOVERNANCE</a>
-      <a>BLOG</a>
+      <a className="opacity-50">DOCS</a>
+      <a
+        href="https://app.cap.uly.dev"
+        target="_blank"
+        className="hover:text-primary-100 transition duration-300"
+      >
+        APP
+      </a>
+      <a
+        href="https://forum.capdefi.net"
+        target="_blank"
+        className="hover:text-primary-100 transition duration-300"
+      >
+        FORUM
+      </a>
     </div>
   </div>
 )
