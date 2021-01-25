@@ -3,7 +3,7 @@ import React from "react"
 const Footer = () => (
   <div className="flex flex-row justify-between text-xs font-monospace opacity-75">
     <span>© Cap Finance</span>
-    <div className="flex flex-row space-x-12">
+    <div className="flex flex-row space-x-4 sm:space-x-12">
       <a
         href="https://twitter.com/CapDotFinance"
         target="_blank"

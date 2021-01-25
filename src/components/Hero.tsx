@@ -49,7 +49,8 @@ const AssetShowcase = () => {
 const Hero = () => (
   <div className="flex flex-col mt-32 mb-32 px-4 md:px-32 space-y-8">
     <span className="text-4xl font-monospace leading-relaxed">
-      Trade <AssetShowcase />
+      Trade <br className="sm:hidden" />
+      <AssetShowcase />
       <br />
       with DAI stablecoin.
     </span>

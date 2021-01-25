@@ -9,7 +9,7 @@ const Header = () => (
     <div className="w-12">
       <img src={logo} />
     </div>
-    <div className="flex flex-row items-center space-x-8 text-xs tracking-widest">
+    <div className="flex flex-row items-center space-x-4 sm:space-x-8 text-xs tracking-widest">
       <a
         href="https://docs.capdefi.org/"
         target="_blank"
