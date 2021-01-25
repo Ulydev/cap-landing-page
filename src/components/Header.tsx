@@ -10,7 +10,13 @@ const Header = () => (
       <img src={logo} />
     </div>
     <div className="flex flex-row items-center space-x-8 text-xs tracking-widest">
-      <a className="opacity-50">DOCS</a>
+      <a
+        href="https://docs.capdefi.org/"
+        target="_blank"
+        className="hover:text-primary-100 transition duration-300"
+      >
+        DOCS
+      </a>
       <a
         href="https://app.cap.uly.dev"
         target="_blank"
