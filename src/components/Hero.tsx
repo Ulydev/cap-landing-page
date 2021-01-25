@@ -33,14 +33,14 @@ const AssetShowcase = () => {
             node.addEventListener("transitionend", done, false)
           }
         >
-          <span className="absolute left-0 bottom-0 text-6xl transform transition-all duration-500">
+          <span
+            style={{ textDecorationColor: "rgba(67,255,68,0.1)" }}
+            className="absolute left-0 bottom-0 text-6xl transform transition-all duration-500 underline"
+          >
             {asset}
           </span>
         </CSSTransition>
       </SwitchTransition>
-      <div className="left-0 bottom-0 text-6xl w-full h-1 bg-primary-100 -mb-1 ml-0.5 opacity-10">
-        &nbsp;&nbsp;&nbsp;&nbsp;
-      </div>
     </span>
   )
 }

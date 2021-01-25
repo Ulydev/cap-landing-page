@@ -12,13 +12,6 @@ const Header = () => (
     <div className="flex flex-row items-center space-x-8 text-xs tracking-widest">
       <a className="opacity-50">DOCS</a>
       <a
-        href="https://gov.cap.uly.dev"
-        target="_blank"
-        className="hover:text-primary-100 transition duration-300"
-      >
-        GOV
-      </a>
-      <a
         href="https://app.cap.uly.dev"
         target="_blank"
         className="hover:text-primary-100 transition duration-300"

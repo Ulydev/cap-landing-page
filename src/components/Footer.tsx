@@ -5,13 +5,6 @@ const Footer = () => (
     <span>© Cap Finance</span>
     <div className="flex flex-row space-x-12">
       <a
-        href="https://t.me/capfin"
-        target="_blank"
-        className="hover:text-primary-100 transition duration-300"
-      >
-        TELEGRAM
-      </a>
-      <a
         href="https://twitter.com/CapDotFinance"
         target="_blank"
         className="hover:text-primary-100 transition duration-300"
