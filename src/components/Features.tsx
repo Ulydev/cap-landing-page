@@ -43,7 +43,7 @@ const Features = () => (
           <span className="font-monospace text-xl">Decentralized Trading</span>
           <span className="text-xs opacity-50 w-64">
             Go long or short on thousands of stocks, ETFs, cryptos, foreign
-            exchanges, and more.
+            exchanges, and more. Up to 100x leverage.
           </span>
         </div>
         <div className="flex flex-col space-y-4 items-end">
