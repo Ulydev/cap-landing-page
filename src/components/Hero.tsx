@@ -62,7 +62,7 @@ const Hero = () => (
       <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
         <a
           className="flex flex-row w-48 p-4 py-2 border-b border-primary-100 justify-between items-center hover:bg-primary-100 hover:text-black transition duration-500"
-          href="https://app.cap.uly.dev"
+          href="https://app.cap.exchange"
           target="_blank"
         >
           <span>ENTER PLATFORM</span>

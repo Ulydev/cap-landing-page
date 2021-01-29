@@ -12,7 +12,7 @@ const Footer = () => (
         TWITTER
       </a>
       <a
-        href="https://gov.cap.uly.dev"
+        href="https://gov.cap.exchange"
         target="_blank"
         className="hover:text-primary-100 transition duration-300"
       >

@@ -18,7 +18,7 @@ const Header = () => (
         DOCS
       </a>
       <a
-        href="https://app.cap.uly.dev"
+        href="https://app.cap.exchange"
         target="_blank"
         className="hover:text-primary-100 transition duration-300"
       >
