@@ -11,7 +11,7 @@ const Header = () => (
     </div>
     <div className="flex flex-row items-center space-x-4 sm:space-x-8 text-xs tracking-widest">
       <a
-        href="https://docs.capdefi.org/"
+        href="https://docs.cap.exchange"
         target="_blank"
         className="hover:text-primary-100 transition duration-300"
       >
