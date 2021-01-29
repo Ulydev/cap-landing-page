@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Cap`,
-    description: `Trade synthetics perpetuals with DAI stablecoin.`,
+    description: `Trade synthetic assets with DAI stablecoin.`,
     author: `@cap`,
+    twitterUsername: `@CapDotFinance`,
+    image: `/banner.png`,
+    url: `https://cap.exchange`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
